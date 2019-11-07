@@ -18,6 +18,9 @@ img = cv.imread("harder_detection.jpg")
 #grayscale image
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
+#HSV image
+hsv = img
+cv.cvCvtColor(img, hsv)
 
 #otsu's method (?) to calculate canny low/high pixel values
 high, thresh_im = cv.threshold(gray, 0, 255, cv.THRESH_BINARY + cv.THRESH_OTSU)

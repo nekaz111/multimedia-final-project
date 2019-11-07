@@ -1,3 +1,4 @@
+#random code downloaded from internet
 # OpenCV Python program to detect cars in video frame 
 # import libraries of python OpenCV  
 import cv2 
@@ -25,10 +26,10 @@ while True:
         cv2.rectangle(frames,(x,y),(x+w,y+h),(0,0,255),2) 
   
     # Display frames in a window  
-    cv2.imshow('video2', frames) 
+    cv2.imshow('video2', frames)    
       
     # Wait for Esc key to stop 
-    if cv2.waitKey(33) == 27: 
+    if cv2.waitKey(30) & 0xFF == ord('q'):
         break
   
 # De-allocate any associated memory usage 
