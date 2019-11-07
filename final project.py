@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 #read image
 img = cv.imread('ez_detection.png')
-img = cv.imread('shapes.jpg')
+#img = cv.imread('shapes.jpg')
 #img = cv.imread("harder_detection.jpg")
 ##invert image
 #inverted = cv.bitwise_not(img)
